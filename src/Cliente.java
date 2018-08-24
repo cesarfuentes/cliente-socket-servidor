@@ -1,7 +1,7 @@
 import java.io.*;
 import java.net.*;
 class Cliente {
-    static final String Host = "localhost";
+    static final String Host = "172.20.172.8";
     static final int PUERTO = 5000;
     
     public Cliente(){
