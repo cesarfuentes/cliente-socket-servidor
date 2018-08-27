@@ -5,10 +5,10 @@ public class ClienteSMPT {
     String Servidor = "mail.ficct.uagrm.edu.bo";
     //String servidor ="172.20.172.254"
     String user_receptor="grupo06sa@ficct.uagrm.edu.bo";
-    String user_emisor="cesarfuentes120594@gmail.com";
+    String user_emisor="cesarfuentes0594@gmail.com";
     String line;
     String comando="";
-    String demoCorreo="demo Correo";
+    String demoCorreo="SALUDOS";
     int puerto=25;
     
     public ClienteSMPT(){
@@ -43,7 +43,7 @@ public class ClienteSMPT {
                 
                 
                 comando="SUBJECT: " + demoCorreo + "\r\n";   //escribi comando
-                comando=comando+"Hola como estas atte Cesar.\r\n";   //escribi comando
+                comando=comando+"Hola como estas atte Cesar xd xd.\r\n";   //escribi comando
                 comando=comando+".\r\n";   //escribi comando
                 System.out.println("C: "+comando);    //mostre al usuario
                 salida.writeBytes(comando);    //    lo que devuelve el servidor

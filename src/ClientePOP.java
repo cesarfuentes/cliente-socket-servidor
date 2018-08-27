@@ -62,7 +62,7 @@ public class ClientePOP {
             System.out.println(e.getMessage());
         }
     }
-    
+    // Permite leer multiples lineas de respuestas del protocolo POP
     static protected String LeerLineas(BufferedReader in) throws IOException{
         String lines="";
         while (true) {            
