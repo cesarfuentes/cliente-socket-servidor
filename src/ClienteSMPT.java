@@ -43,7 +43,7 @@ public class ClienteSMPT {
                 
                 
                 comando="SUBJECT: " + demoCorreo + "\r\n";   //escribi comando
-                comando=comando+"Hola como estas.\r\n";   //escribi comando
+                comando=comando+"Hola como estas atte Cesar.\r\n";   //escribi comando
                 comando=comando+".\r\n";   //escribi comando
                 System.out.println("C: "+comando);    //mostre al usuario
                 salida.writeBytes(comando);    //    lo que devuelve el servidor
